@@ -12,6 +12,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Open_Sans as OpenSans } from 'next/font/google'
 import Depoimento from '@/components/depoimentos/Depoimento'
+import SessaoGratis from '@/components/motivos/SessaoGratis'
 
 const openSans = OpenSans({
   subsets: ['latin'],
@@ -38,6 +39,7 @@ export default function Home() {
     <main className="overflow-hidden lg:max-w-full">
       <Inicio />
       <Video />
+      <SessaoGratis />
       <Motivos />
       <AntesDepois contentStyle="container mx-auto flex-col pt-12 pb-14">
         <SectionHeader

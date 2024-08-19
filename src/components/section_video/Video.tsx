@@ -17,7 +17,7 @@ export default function Video() {
   return (
     <section className="overflow-hidden">
       <YouTube
-        videoId="a6lJEMqDqg4"
+        videoId="1dyBOvJ2a0k"
         opts={opts}
         onReady={onPlayerReady}
         className="h-[60vh]"
